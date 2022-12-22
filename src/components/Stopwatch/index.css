@@ -1,0 +1,109 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  padding-top: 80px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    align-items: flex-start;
+    padding: 120px;
+  }
+}
+
+.heading {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+}
+.stopwatch-container {
+  background-color: #ffffff;
+  margin-top: 15px;
+  border-radius: 15px;
+  width: 450px;
+  height: 450px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .stopwatch-container {
+    width: 300px;
+    height: 350px;
+  }
+}
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+.timer-image {
+  width: 40px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .timer-image {
+    width: 43px;
+  }
+}
+.timer {
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .timer {
+    font-size: 32px;
+  }
+}
+.stopwatch-timer {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-timer {
+    font-size: 54px;
+  }
+}
+.button-container {
+  padding: 20px;
+}
+.button {
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.start {
+  background-color: #1db05f;
+}
+.stop {
+  background-color: #ef0d36;
+}
+.reset {
+  background-color: #eaa800;
+}
